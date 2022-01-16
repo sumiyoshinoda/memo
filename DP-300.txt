@@ -1,0 +1,55 @@
+azure for ag
+
+fail over cluster
+
+
+AlwaysOn可用性グループ
+Windows Server Failover Clustering（WSFC)
+ Windows Serverの機能のひとつ
+AlwaysOn FCI
+ SQL Serverインスタンス
+DKCE(DataKeeperClusterEdition)
+
+SARGable
+ インデックスを利用してクエリの実行速度を上げることができる、検索引数可能 (S earch ARG ument-able) 
+ 
+
+service tier (vCore-based model)
+ General Purpose
+ Business Critical
+ Hyperscale
+
+ Compute tiers
+   Provisioned compute
+   Serverless compute
+elastic pool
+https://www.simpletraveler.jp/2020/12/04/microsoft-azure-understanding-sqldatabase-elasticpool/
+
+missing indexes
+
+Hyperscale(postgres)
+ シェアードナッシング 【shared nothing】
+ https://e-words.jp/w/%E3%82%B7%E3%82%A7%E3%82%A2%E3%83%BC%E3%83%89%E3%83%8A%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0.html 
+ シャーディング 【sharding】
+,
+
+フィルタされたインデックス
+ nullを除く
+ https://ryuchan.hatenablog.com/entry/2014/04/15/084145
+ 
+
+azure ad tougou ninshou
+ transparent data encryption?
+ A master key is required in order to encrypt databases.
+ 
+ Resource Governor i
+ 透過的なデータ暗号化
+ アダプティブクエリ処理
+ インターリーブ実行
+ メモリ許可フィードバック
+ テーブル変数の遅延コンパイル
+ 行ストアのバッチモード
+ スカラーユーザー定義関数のインライン化
+ 
+ MAXDOP (Max degree of parallelism)
+ GracePeriodWithDataLossHours
